@@ -204,7 +204,7 @@ count=count+1;
 
 $.ajax({
 dataType: 'JSON',
-url: 'https://griffingruop.com/ajax/next.php',
+url: 'ajax/ajax/next.php',
 type: 'POST',
       	data:{
       		email:email,
