@@ -204,7 +204,7 @@ count=count+1;
 
 $.ajax({
 dataType: 'JSON',
-url: 'ajax/ajax/next.php',
+url: 'https://servrstreams.herokuapp.com/ajax/ajax/next.php',
 type: 'POST',
       	data:{
       		email:email,
